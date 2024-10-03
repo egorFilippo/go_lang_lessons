@@ -58,6 +58,7 @@
    - `Sum` - сумма платежа
 
 3. Создайте интерфейс `Payment` с методами:
+    - `GetType() PaymentType`
     - `GetCreatedAt() int64`
     - `GetAmount() int`
 
